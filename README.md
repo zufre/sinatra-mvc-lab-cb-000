@@ -4,7 +4,7 @@ In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC pa
 
 ## What you'll need to do
 
-+ Build a form to take user input in user_input.erb
++ Build a form to take user input in user_input.erb. Show that form using a `GET` request at `/`.
 + Create a `POST` method in your controller (`app.rb`) to receive your form's `params`.
 + Build a `PigLatinize` model (in your models directory) that converts a string into pig latin.
 + In your application controller, create an instance of the `PigLatinize` class to convert your user input to Pig Latin.
