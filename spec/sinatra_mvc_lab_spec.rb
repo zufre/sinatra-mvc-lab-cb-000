@@ -13,7 +13,7 @@ describe "Pig Latinizer App" do
     end
 
     it "renders a new form element on the page" do
-      expect(last_response.body).to include("<form>")
+      expect(last_response.body).to include("<form")
       expect(last_response.body).to include("</form>")
     end
 
@@ -30,7 +30,7 @@ describe "Pig Latinizer App" do
   describe "POST '/piglatinize'" do
     before do
       post '/piglatinize', {
-        "user_phrase"=> "Once upon a time and a very good time it was there was a moocow coming down along the road and this moocow that was coming down along the road met a nicens little boy named baby tuckoo."
+        "user_phrase"=> "Once upon a time and a very good time it was there was a moocow coming down along the road and this moocow that was coming down along the road met a nicens little boy named baby tuckoo"
       }
     end
 
