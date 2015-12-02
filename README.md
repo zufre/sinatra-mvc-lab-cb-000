@@ -9,3 +9,4 @@ In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC pa
 + Build a `PigLatinize` model (in your models directory) that converts a string into pig latin.
 + In your application controller, create an instance of the `PigLatinize` class to convert your user input to Pig Latin.
 + Use ERB within a new view to display the final pig latin string to the user.
+<a href='https://learn.co/lessons/sinatra-mvc-curriculum' data-visibility='hidden'>View this lesson on Learn.co</a>
