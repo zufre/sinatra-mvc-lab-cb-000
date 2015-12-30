@@ -1,6 +1,6 @@
 # Sinatra MVC Lab - Pig Latinizer
 
-In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC paradign of app development. Your app will take in a string from a user through a form, convert it to pig latin, and return the string to the user. Using the previous code-along as a guide, get the tests to pass by building out this application. Use the guide below to get you started!
+In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC paradigm of app development. Your app will take in a string from a user through a form, convert it to pig latin, and return the string to the user. Using the previous code-along as a guide, get the tests to pass by building out this application. Use the guide below to get you started!
 
 ## Instructions
 
@@ -15,3 +15,5 @@ In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC pa
 5. Use ERB within a new view to display the final pig latin string to the user.
 
 <a href='https://learn.co/lessons/sinatra-mvc-curriculum' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<a href='https://learn.co/lessons/sinatra-mvc-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
