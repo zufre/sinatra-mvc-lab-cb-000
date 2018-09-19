@@ -1,4 +1,4 @@
-class Piglatinizer
+class PigLatinizer
 
   def vowel?(char)
   "aeiouAEIOU".include?(char)
