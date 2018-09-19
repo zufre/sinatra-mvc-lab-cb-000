@@ -5,10 +5,12 @@ class App < Sinatra::Base
 
     erb :user_input
   end
-  post '/' do
+  post '/piglatinize' do
+    
 
-  @text = Pigalizer.new(params[:text])
-  "Hello"
+    @text = Pigalizer.new(params[:text])
+  
+    erb :result
 end
 
 end
