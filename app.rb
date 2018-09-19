@@ -9,7 +9,7 @@ class App < Sinatra::Base
 
 
     @text = Pigalizer.new.piglatinize(params[:user_phrase])
-  
+
     erb :result
 end
 
